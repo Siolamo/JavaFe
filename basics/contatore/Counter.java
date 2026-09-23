@@ -18,5 +18,10 @@ public class Counter {
     {
         return val;
     }
+
+    public void Copy(Counter c)
+    {
+        this.val = c.val;
+    }
     
 }
