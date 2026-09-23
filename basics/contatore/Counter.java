@@ -19,9 +19,13 @@ public class Counter {
         return val;
     }
 
-    public void Copy(Counter c)
+    public void copy(Counter c)
     {
         this.val = c.val;
     }
     
+    public boolean equals(Counter c1 )
+    {
+        return c1.val == this.val;
+    }
 }
