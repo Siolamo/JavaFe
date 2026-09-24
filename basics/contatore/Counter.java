@@ -14,6 +14,11 @@ public class Counter {
         val++;
     }
 
+    public void dec()
+    {
+        val--;
+    }
+
     public int getValue()
     {
         return val;
