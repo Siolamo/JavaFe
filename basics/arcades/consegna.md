@@ -1,3 +1,5 @@
+**Questa consegna è stata scritta da un MML (sono pigro)**
+
 Trovare il giusto equilibrio senza perdersi in codice inutile è il punto chiave.
 
 Ecco un vero esercizio di OOP in cui gli oggetti rappresentano entità reali, interagiscono tra loro e gestiscono i cambiamenti di stato.
