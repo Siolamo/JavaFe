@@ -4,6 +4,8 @@ public class Matricola
     public int  qualcosa; //attributo 
     private String nome; //
     private int[] voti;
+    private int yes;
+    private String no;
     
     
     public Matricola(String nome) //costtruttore 
@@ -32,8 +34,5 @@ public class Matricola
         }
         return false;
     }
-
-    
-
 
 }

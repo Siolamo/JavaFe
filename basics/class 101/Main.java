@@ -26,7 +26,7 @@ Nel gran mar de la selva di funzioni,
 Ritrovi l’ordine in quel caos avverso.
 
 Raggruppa i dati e le operazioni
-In vive forme, sì che l'intelletto
+In vive forme, sì che l'intellettos
 Non tremi dinanzi alle complicazioni.
 
 L'arte che move il codice perfetto
@@ -36,7 +36,7 @@ Dando a ciascuna classe il suo effetto.
 
 
 
-
+/*La classe principale dove si trova il metodo main DEVE essere pubblica! */
 public class Main
 {
     public static void main(String args[])

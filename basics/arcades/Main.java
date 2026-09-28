@@ -6,7 +6,9 @@ public class Main //classe main
         //Creo due oggetti, un ArcadeCard chiamato playerCard e uno ArcadeGame chiamato skeeball
         ArcadeCard playerCard = new ArcadeCard(101, 15); // Card #101 with 15 credits
         ArcadeGame skeeball = new ArcadeGame("Skee-Ball", 5);  // Costs 5 credits per play
+        Retry bc = new Retry(1,"giocanni",4);
 
+        
         // Play rounds
         System.out.println("Remaining credits: " + playerCard.getCredits()); // crediti iniziali
         skeeball.play(playerCard); // Should succeed (10 credits left)
