@@ -1,3 +1,7 @@
+
+
+import orologi.Counter;
+
 public class Main 
 {
 
@@ -19,6 +23,7 @@ public class Main
         c2.dec();
         System.out.println("Back to normal? " + c2.equals(c1));
     }
+    
         
 
 }
