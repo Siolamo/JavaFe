@@ -32,7 +32,7 @@ public class GruppoAlieni
     public int calcolaDanno() 
     {
         int danno = 0;
-        for(int i = 0; i < alieni.length; i++) 
+        for(int i = 0; i < indice; i++) 
         {
            danno+= alieni[i].getDanno();
         }
