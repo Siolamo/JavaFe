@@ -31,8 +31,6 @@ public class Orologio
         if(ore.getNumero()== 24)
             ore.reset();
         
-
-
     }
     public int getOre()
     {

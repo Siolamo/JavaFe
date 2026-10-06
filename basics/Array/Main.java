@@ -19,7 +19,7 @@ public class Main
 
             ora immaginiamo di voler fare un programma
             per esempio 
-            Un programma che semplicemente, ci chiede di isnerire una frase come input, e la stampa
+            Un programma che semplicemente, ci chiede di isn<erire una frase come input, e la stampa
 
             quindi si avra un programma del tipo:
             public class Main{
