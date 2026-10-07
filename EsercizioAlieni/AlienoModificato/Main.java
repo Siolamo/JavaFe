@@ -6,7 +6,7 @@ public class Main
         GruppoAlieni ga=new GruppoAlieni(4);
         ga.aggiungiAlieno(new AlienoOrco(39, "Il fu Mattia Pascal"));
         ga.aggiungiAlieno(new AlienoSerpente(100, "HELL NAH"));
-        ga.aggiungiAlieno(new AlienoUomoMarshmallow(100,"the girl sitting near the pole while it isn't raining"));
+        ga.aggiungiAlieno(new AlienoUomoMarshmallow(100,"NOT HIM"));
         ga.aggiungiAlieno(new AlienoOrco(70, "proprio lui"));
         
         int[] danni = ga.calcolaDanno();

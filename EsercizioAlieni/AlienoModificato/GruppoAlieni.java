@@ -10,7 +10,7 @@ public class GruppoAlieni
         indice = 0;
         max = alieniNum;
         danni = new int[4];
-        for(int i=0;i<4;i++) danni[i] = 0;
+        
         
     }
 
@@ -35,7 +35,7 @@ public class GruppoAlieni
 
     public int[] calcolaDanno() 
     {
-        
+        for(int i=0;i<4;i++) danni[i] = 0;
         for(int i = 0; i < indice; i++) 
         {
             danni[alieni[i].getIdentificativo()] += alieni[i].getDanno();
