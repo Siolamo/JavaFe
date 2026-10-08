@@ -13,9 +13,9 @@ public class Main
 
         GruppoAlieni ga=new GruppoAlieni(nalieni);
 
-        for (int i = 0; i < nalieni; i++) // a Ilaria non piace "gogogogog"
+        for (int i = 0; i < nalieni; i++)
         {   
-            System.out.println("Inserisci i dati dell'alieno:");
+            System.out.println("Inserisci i dati dell'alieno n" + i +":");
             System.out.println("nome: ");
             
             String nome = n.nextLine();
