@@ -3,11 +3,13 @@ public class GruppoAlieni
     private Alieno[] alieni;
     private int indice;
     private final int max;
+    private Record[] danni;
     public GruppoAlieni(int alieniNum) 
     {
         alieni = new Alieno[alieniNum];
         indice = 0;
         max = alieniNum;
+        danni = new Record[3];
     }
 
     public void aggiungiAlieno(Alieno nuovoAlieno) 
@@ -31,10 +33,12 @@ public class GruppoAlieni
 
     public int calcolaDanno() 
     {
+
         int danno = 0;
         for(int i = 0; i < indice; i++) 
         {
            danno+= alieni[i].getDanno();
+
         }
         return danno;
     }
